@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="app.elingeniero.atupuerta.delivery.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:background="@color/quantum_googgreen400"
+            android:text="Nuevo pedido"
+            android:drawableTop="@drawable/ic_newfile2"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/quantum_googgreen400"
+            android:text="Mi lista de pedidos"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:drawableTop="@drawable/ic_list_symbol_of_three_items_with_dots_icon_icons" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/quantum_googgreen400"
+            android:text="Editar pedido"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:drawableTop="@drawable/ic_editdocument" />
+
+
+        <Button
+            android:id="@+id/btnOpciones"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/quantum_googgreen400"
+            android:text="Opciones"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
+            android:drawableTop="@drawable/ic_opciones" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/fillable_area">
+
+    <TextView android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif"
+        android:text="Sugerencias"
+        />
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnOmitir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Omitir"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:fillViewport="true"
+        android:id="@+id/scrollView"
+        android:layout_above="@id/buttons">
+    </ScrollView>
+
+
+</RelativeLayout>

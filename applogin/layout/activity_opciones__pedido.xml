@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".Opciones_Pedido">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRest"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/quantum_googgreen400"
+            android:padding="20dp"
+            android:drawableTop="@drawable/ic_food_fork_kitchen_knife_meanns_restaurant"
+            android:text="Restaurante" />
+
+        <Button
+            android:id="@+id/btnMarket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/quantum_googgreen400"
+            android:padding="20dp"
+            android:drawableTop="@drawable/ic_shoppingcart"
+            android:text="Supermercado" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPharm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/quantum_googgreen400"
+            android:padding="20dp"
+            android:drawableTop="@drawable/ic_farmacia"
+            android:text="Farmacia" />
+
+        <Button
+            android:id="@+id/btnOthers"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_shipping_delivery_box_drop"
+            android:padding="20dp"
+            android:background="@color/quantum_googgreen400"
+            android:text="Otros" />
+
+    </LinearLayout>
+
+</LinearLayout>
